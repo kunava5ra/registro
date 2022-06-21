@@ -1,37 +1,58 @@
-*{
-    margin: 0%;
-    height: 100vh;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+body {
+    width: 98%;
     background-color: #3c3f4f;
-    
 }
 
-.po{
-    height: 140px;
-    align-self: center;
-    margin-top: 15em ;
-    margin-left: 2em ;
-}
-.hehehe {
+.main-container {
     display: flex;
     flex-direction: row;
-    height: 40em;
-    margin: 3em;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10em;
 }
 
-.flxp
-{
-    justify-content: flex-end;
+.title {
+    font-size: 32px;
+    font-family: 'Roboto';
+    margin-left: 50px;
+}
+
+.container-content {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10em;
+}
+
+.input-container input {
+    width: 20em;
+    border-radius: .5em;
+    outline: none;
+}
+
+.input-container > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 20em;
+
+
+}
+
+.iia-1 {
+    color: #fff;
     
 }
-.age{
-    margin-top: 4em;
-    margin-left: 7em ;
-    color: #FFFFFF;
+
+.iia-2{
+    color: #fff;
+}
+
+* {
+}
+
+.batao{
+background-color: #292929;
 }
